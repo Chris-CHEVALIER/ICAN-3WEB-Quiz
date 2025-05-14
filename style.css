@@ -5,10 +5,13 @@ body {
 
 main {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
+p {
+  width: 400px;
+}
 
 button {
   border: 0;
@@ -21,10 +24,12 @@ button {
   background-color: dodgerblue;
   color: white;
 }
+
 .answer-2 {
   background-color: seagreen;
   color: white;
 }
+
 .answer-3 {
   background-color: brown;
   color: white;
